@@ -3,6 +3,11 @@
   Developed with the Allegro 5 library, it is a version of the "Core" Game, recreated in C with additional functionalities.
 
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/112017191/217637844-febc75fd-2935-4aad-88c7-580f5c9fcf90.png" width="700px" />
+</div>
+
+
 ## Help:
 
 ### Commands:
@@ -11,8 +16,10 @@
   Esc: enable pause, when available
 
 ### Life:
+  The player starts with 3 lives
   When hit by a red orb, the player's radius is reduced.
   When hit by a blue orb, the player's radius is increased.
+  If the radius reaches 0, the player loses a life
  
 ### Levels:
   Every 15 points you reach a new level.
